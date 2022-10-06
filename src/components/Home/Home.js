@@ -26,7 +26,7 @@ function Home() {
                 <strong className="main-name"> Rahul Jha</strong>
               </h1>
 
-              <div style={{ padding:40, textAlign: "left" }}>
+              <div style={{ padding:30, }} className="type">
                 <Type />
               </div>
             </Col>
@@ -36,7 +36,7 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ paddingTop: 50 }}
               />
             </Col>
           </Row>

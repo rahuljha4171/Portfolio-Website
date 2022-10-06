@@ -69,32 +69,58 @@
   font-size: 2em !important;
   color: var(--clr-primary) !important;
   font-weight: 600 !important;
+  padding-left: 25px;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: var(--clr-primary) !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .heading {
-    font-size: 2.2em !important;
+    font-size: 2.3em !important;
     padding-left: 0px !important;
-    text-align: center !important;
+    text-align: left !important;
   }
 
   .heading-name {
-    font-size: 3.0em !important;
+    font-size: 4em !important;
     padding-left: 0px !important;
-    text-align: center !important;
+    text-align: left !important;
+  }
+  .type{
+    padding-left: 0px;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.3em !important;
+    padding: 0px !important;
+  }
+  .Typewriter__cursor {
+    font-size: 1.5em !important;
+  }
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 2.2em !important;
+    padding-left: 20px !important;
+    text-align: left !important;
   }
 
+  .heading-name {
+    font-size: 3em !important;
+    padding-left: 20px !important;
+    text-align: left !important;
+  }
+  .type{
+    text-align: left !important;
+  }
   .Typewriter__wrapper {
     text-align: center !important;
     font-size: 1.2em !important;
     font-weight: 400 !important;
     position: absolute;
-
   }
+
   .Typewriter__cursor {
     display: none !important;
   }
