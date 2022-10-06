@@ -46,7 +46,7 @@
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 9rem 2rem !important;
   color: var(--clr-txt);
   text-align: left;
 }
@@ -57,7 +57,7 @@
 }
 
 .heading-name {
-  font-size: 4em !important;
+  font-size: 5em !important;
   padding-left: 45px !important;
 }
 
@@ -66,9 +66,10 @@
 }
 
 .Typewriter__wrapper {
-  font-size: 2em !important;
+  font-size: 2.2em !important;
   color: var(--clr-primary) !important;
   font-weight: 600 !important;
+  
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -82,12 +83,15 @@
   }
 
   .heading-name {
+    font-size: 4em !important;
     padding-left: 0px !important;
     text-align: center !important;
   }
 
   .Typewriter__wrapper {
+    text-align: center !important;
     font-size: 1.2em !important;
+   
     font-weight: 400 !important;
     position: absolute !important;
   }
