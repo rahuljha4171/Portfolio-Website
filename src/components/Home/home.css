@@ -78,17 +78,19 @@
 
 @media (max-width: 767px) {
   .heading {
+    font-size: 2.2em !important;
     padding-left: 0px !important;
     text-align: center !important;
   }
 
   .heading-name {
-    font-size: 3.5em !important;
+    font-size: 3.0em !important;
     padding-left: 0px !important;
     text-align: center !important;
   }
 
   .Typewriter__wrapper {
+    padding-left: 0px !important;
     text-align: center !important;
     font-size: 1.2em !important;
     font-weight: 400 !important;
