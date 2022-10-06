@@ -1,0 +1,161 @@
+.sticky {
+  transition: all 0.5s ease-out 0s !important;
+  box-shadow: 0px 2px 2px 0px var(--clr-border) !important;
+  backdrop-filter: blur(250px) !important;
+}
+
+.navbar {
+  position: fixed !important;
+  transition: all 0.5s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
+}
+
+.navbar-toggler {
+  position: relative !important;
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler span {
+  display: block !important;
+  background-color: var(--clr-txt) !important;
+  height: 4px !important;
+  width: 27px !important;
+  outline: none !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  transform: rotate(0deg) !important;
+  left: 0 !important;
+  opacity: 1 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  transition: transform 0.35s ease-in-out !important;
+  transition: transform 0.35s ease-in-out !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(135deg) !important;
+  opacity: 0.9 !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px !important;
+  visibility: hidden !important;
+  background-color: transparent !important;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute !important;
+  left: 12px !important;
+  top: 10px !important;
+  transform: rotate(-135deg) !important;
+  opacity: 0.9 !important;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 1.2rem !important;
+    transition: all 0.5s ease-out 0s !important;
+    box-shadow: 0px 2px 2px 0px var(--clr-border) !important;
+
+    backdrop-filter: blur(250px) !important;
+  }
+}
+.navbar-brand {
+  color: var(--clr-txt) !important;
+}
+
+.logo {
+  height: 2.5em !important;
+  width: 3em !important;
+}
+
+.navbar-nav .nav-link {
+  color: var(--clr-txt) !important;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
+}
+.nav-link {
+  padding: 0.8rem 1rem !important;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    padding: 0.7rem 1rem !important;
+  }
+  .logo {
+    height: 1.9em !important;
+    width: 2.5em !important;
+  }
+}
+
+.navbar-nav .nav-item {
+  position: relative;
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-item a {
+  font-weight: 400;
+  transition: all 0.3s ease-out 0s;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-nav .nav-item a::after {
+  content: "";
+  position: relative;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background-color: var(--clr-primary);
+  bottom: 1px;
+  left: 0;
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
+}
+
+.navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}
+
+/* theme Switch */
+#toggle {
+  width: 50px;
+  display: flex;
+  padding: 5px;
+  background-color: #2c3531;
+  display: block;
+  border-radius: 1000px;
+  cursor: pointer;
+  box-shadow: 0px 5px 20px -10px var(--shadow);
+  transition: background-color 0.3s ease-in;
+}
+#toggle .toggle-inner {
+  width: 20px;
+  height: 15px;
+  background-color: var(--clr-bg);
+  border-radius: 1000px;
+  transition: margin-left 0.3s ease-in, background-color 0.3s ease-in;
+}
+#toggle .toggle-inner.toggle-active {
+  margin-left: 20px;
+}
+.dark-mode #toggle {
+  background-color: var(--clr-txt);
+}
+.dark-mode #toggle .toggle-inner {
+  background-color: #2c3531;
+}
