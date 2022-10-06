@@ -69,7 +69,7 @@
   font-size: 2em !important;
   color: var(--clr-primary) !important;
   font-weight: 600 !important;
-  padding-left: 40px;
+  padding-left: 45px;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
@@ -90,11 +90,10 @@
   }
 
   .Typewriter__wrapper {
-    padding-left: 0px !important;
-    text-align: center !important;
+    text-align: left !important;
     font-size: 1.2em !important;
     font-weight: 400 !important;
-    position: absolute !important;
+    padding-left: 0px;
 
   }
   .Typewriter__cursor {
