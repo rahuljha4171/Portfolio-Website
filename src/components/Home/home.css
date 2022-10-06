@@ -94,6 +94,7 @@
     font-size: 1.2em !important;
     font-weight: 400 !important;
     padding-left: 0px;
+    position: absolute;
 
   }
   .Typewriter__cursor {
