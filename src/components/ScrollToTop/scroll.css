@@ -1,25 +1,18 @@
 .scroll-up {
   position: fixed;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
   bottom: 75px;
   right: 30px;
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
   z-index: 100;
-  box-shadow: var(--shadow);
   color: var(--clr-txt);
-  background-color: var(--clr-bg);
+  background: transparent !important;
   transition: 0.5s;
 }
 
 .scroll-up:hover {
   color: var(--clr-primary);
-  transform: scale(1.1);
-  box-shadow: 0 0 3px var(--clr-primary);
-  text-shadow: 0 0 2px var(--clr-primary);
 }
 
 @media (max-width: 570px) {

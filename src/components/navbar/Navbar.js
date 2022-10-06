@@ -4,7 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import { ThemeContext } from "../../Context/theme";
 
 import Container from "react-bootstrap/Container";
-import logo from "../../Assets/logo.png";
+import logoLight from "../../Assets/logoLight.png";
+import logoDark from "../../Assets/logoDark.png";
 
 import { Link } from "react-router-dom";
 import "./navbar.css";
@@ -44,8 +45,11 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}Rahul
-          Jha
+          <img
+            src={themename === "light" ? logoDark : logoLight}
+            className="img-fluid logo"
+            alt="brand"
+          />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -104,13 +108,13 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-            <Nav.Item>
-              <div className="theme-switch">
-                <div id="toggle" onClick={toggeltheme}>
-                  <div className="toggle-inner" />
-                </div>
+          <Nav.Item>
+            <div className="theme-switch">
+              <div id="toggle" onClick={toggeltheme}>
+                <div className="toggle-inner" />
               </div>
-            </Nav.Item>
+            </div>
+          </Nav.Item>
         </Navbar.Collapse>
       </Container>
     </Navbar>

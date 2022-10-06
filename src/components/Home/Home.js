@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/homeicons.svg";
+import homeIcon from "../../Assets/homeIcons.svg";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
 import Home2 from "./Home2";
@@ -26,14 +26,14 @@ function Home() {
                 <strong className="main-name"> Rahul Jha</strong>
               </h1>
 
-              <div style={{ padding:30, }} className="type">
+              <div style={{ padding: 30 }} className="type">
                 <Type />
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={homeIcon}
                 alt="home pic"
                 className="img-fluid"
                 style={{ paddingTop: 50 }}
