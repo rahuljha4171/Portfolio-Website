@@ -141,6 +141,7 @@
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
+  background-color: var(--clr-bg-alt);
   padding-top: 70px !important;
 }
 
