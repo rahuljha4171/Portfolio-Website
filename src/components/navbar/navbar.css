@@ -136,7 +136,7 @@
   width: 50px;
   display: flex;
   padding: 5px;
-  background-color: #2c3531;
+  background-color: #202523;
   display: block;
   border-radius: 1000px;
   cursor: pointer;
@@ -157,5 +157,5 @@
   background-color: var(--clr-txt);
 }
 .dark-mode #toggle .toggle-inner {
-  background-color: #2c3531;
+  background-color: #202523;
 }

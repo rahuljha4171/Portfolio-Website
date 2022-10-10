@@ -18,7 +18,7 @@
 
   --clr-nav: #fefefe;
 
-  --shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  --shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
 }
 
 .dark {
@@ -29,7 +29,7 @@
   --clr-primary: #83c9ff;
   --clr-border: #eeeeee7c;
   --clr-nav: #272f2b;
-  --shadow: rgba(0, 0, 0, 0.3) 0px 10px 36px 0px,
+  --shadow: rgba(0, 0, 0, 0.558) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -45,16 +45,16 @@ main {
 }
 
 ::-webkit-scrollbar-track {
-  background: #2978b569;
+  background: #2978b595;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2978b5b7;
+  background: #1d80cd;
   border-radius: 12px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2485d0;
+  background: #03467a;
   border-radius: 12px;
 }
 
