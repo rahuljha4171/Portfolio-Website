@@ -8,8 +8,8 @@
 }
 
 .light {
-  --clr-bg: #f6f4f4;
-  --clr-bg-alt: #ffffff;
+  --clr-bg: #ffffff;
+  --clr-bg-alt: #f6f4f4;
 
   --clr-txt: #000000ca;
   --clr-primary: #03467a;
