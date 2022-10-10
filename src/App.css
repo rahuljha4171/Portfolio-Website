@@ -8,9 +8,12 @@
 }
 
 .light {
-  --clr-bg: #ffffff;
+  --clr-bg: #f6f4f4;
+  --clr-bg-alt: #ffffff;
+
   --clr-txt: #000000ca;
-  --clr-primary: #2978b5;
+  --clr-primary: #03467a;
+
   --clr-border: #919090;
 
   --clr-nav: #fefefe;
@@ -19,11 +22,12 @@
 }
 
 .dark {
-  --clr-bg: #2c3531;
+  --clr-bg: #202523;
+  --clr-bg-alt: #1d2120;
 
   --clr-txt: #eeeeee;
-  --clr-primary: #2978b5;
-  --clr-border: #ffffff53;
+  --clr-primary: #83c9ff;
+  --clr-border: #eeeeee7c;
   --clr-nav: #272f2b;
   --shadow: rgba(0, 0, 0, 0.3) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -53,3 +57,4 @@ main {
   background: #2485d0;
   border-radius: 12px;
 }
+

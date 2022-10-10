@@ -142,6 +142,7 @@
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-color: var(--clr-bg-alt);
 }
 
 .home-about-description {

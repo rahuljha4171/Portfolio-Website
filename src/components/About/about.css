@@ -63,3 +63,6 @@
     padding-top: 0 !important;
   }
 }
+.git {
+  color: var(--clr-primary);
+}
