@@ -54,7 +54,7 @@
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px #0bebef !important;
+  box-shadow: 0 3px 3px 5px var(--clr-primary) !important;
 }
 
 .card-img-top {
@@ -76,7 +76,7 @@
 }
 
 .btn-primary:hover {
-  color: var(--clr-bg) !important;
+  color: #fefefe !important;
   background-color: var(--clr-primary) !important;
 }
 .btn:focus {

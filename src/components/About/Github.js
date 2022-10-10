@@ -11,7 +11,7 @@ function Github() {
       <div className="gitContainer" data-aos="fade-up">
         <GitHubCalendar
           username="Rahuljha4171"
-          color="#2978b5"
+          color="#9a0680"
           blockSize={15}
           blockMargin={5}
           fontSize={16}
