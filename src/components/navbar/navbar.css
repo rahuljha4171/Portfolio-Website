@@ -91,15 +91,6 @@
   padding: 0.8rem 1rem !important;
 }
 
-.mbToggle {
-  display: flex;
-  align-items: center;
-}
-
-.mbTheme {
-  display: none !important;
-}
-
 @media (max-width: 768px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
@@ -109,10 +100,9 @@
     width: 2.5em !important;
   }
   .theme-switch {
-    display: none;
-  }
-  .mbTheme {
-    display: flex !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
