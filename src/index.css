@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
   margin: 0;
-  font-family: "Raleway", serif !important;
+  font-family: "Roboto", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(90deg, hsla(153, 9%, 19%, 1) 0%, hsla(153, 9%, 19%, 1) 100%);
+  background-image: linear-gradient(
+    90deg,
+    hsla(153, 9%, 19%, 1) 0%,
+    hsla(153, 9%, 19%, 1) 100%
+  );
 }

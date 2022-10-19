@@ -91,6 +91,10 @@
   padding: 0.8rem 1rem !important;
 }
 
+.theme-switch {
+  padding-left: 20px;
+}
+
 @media (max-width: 768px) {
   .nav-link {
     padding: 0.7rem 1rem !important;

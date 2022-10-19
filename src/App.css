@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .app {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   line-height: 1.5;
   color: var(--clr-txt);
@@ -20,7 +20,6 @@
 
   --shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
 }
-
 
 .dark {
   --clr-bg: #202523;
@@ -58,4 +57,3 @@ main {
   background: #03467a;
   border-radius: 12px;
 }
-
