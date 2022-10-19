@@ -9,7 +9,6 @@ import logoDark from "../../Assets/logoDark.png";
 
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { Offcanvas } from "react-bootstrap";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
