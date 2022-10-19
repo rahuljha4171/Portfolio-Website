@@ -44,25 +44,34 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img
-            src={themename === "light" ? logoDark : logoLight}
-            className="img-fluid logo"
-            alt="brand"
-          />
-        </Navbar.Brand>
-        <Navbar.Toggle
-          aria-controls="responsive-navbar-nav"
-          onClick={() => {
-            updateExpanded(expand ? false : "expanded");
-          }}
-        >
-          <div className="toggleButton">
-            <span></span>
-            <span></span>
-            <span></span>
+        <div className="LeftContainer">
+          <Navbar.Brand href="/" className="d-flex">
+            <img
+              src={themename === "light" ? logoDark : logoLight}
+              className="img-fluid logo"
+              alt="brand"
+            />
+          </Navbar.Brand>
+        </div>
+
+        <div className="mbToggle">
+          <div id="toggle" className="mbTheme" onClick={toggeltheme}>
+            <div className="toggle-inner" />
           </div>
-        </Navbar.Toggle>
+
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            onClick={() => {
+              updateExpanded(expand ? false : "expanded");
+            }}
+          >
+            <div className="toggleButton">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </Navbar.Toggle>
+        </div>
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
@@ -108,15 +117,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
           </Nav>
-          <Nav.Item>
-            <div className="theme-switch">
-              <div id="toggle" onClick={toggeltheme}>
-                <div className="toggle-inner" />
-              </div>
-            </div>
-          </Nav.Item>
         </Navbar.Collapse>
       </Container>
+      <Nav.Item>
+        <div className="theme-switch">
+          <div id="toggle" onClick={toggeltheme}>
+            <div className="toggle-inner" />
+          </div>
+        </div>
+      </Nav.Item>
     </Navbar>
   );
 }
