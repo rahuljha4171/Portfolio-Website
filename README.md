@@ -3,29 +3,26 @@
   <a href="https://rahuljha.vercel.app/" target="_blank">rahuljha.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme_img2.png" />
+  <img alt="Demo" src="./Images/readme_img.png" />
 </div>
 
 <br/>
 
-<center>
-
+<div align="center">
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge)
 
-</center>
+</div>
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request Feature</a>
+    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
 </h3>
 
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance!
 
 ## Built With
 
@@ -40,11 +37,13 @@ This project was built using these technologies.
 
 ## Features
 
-**📖 Multi-Page Layout**
+**Multi-Page Layout**
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+**Styled with React-Bootstrap and Css**
 
-**📱 Fully Responsive**
+**Fully Responsive**
+
+**Dark and Light Theme**
 
 ## Getting Started
 
