@@ -15,20 +15,13 @@
 
 </div>
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
-</h3>
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance!
+You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance😍!
 
 ## Built With
 
-My personal portfolio <a href="https://rahuljha.vercel.app/" target="_blank">rahuljha.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website <a href="https://rahuljha.vercel.app/" target="_blank">rahuljha.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
-This project was built using these technologies.
+This project is built using these technologies.
 
 - React.js
 - CSS3
@@ -47,7 +40,7 @@ This project was built using these technologies.
 
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Clone this repository. You will need `node.js` and `git` installed globally on your machine.
 
 ## 🛠 Installation and Setup Instructions
 
@@ -66,4 +59,14 @@ You will find all the components used and you can edit your information accordin
 
 ### Show your support
 
+<h3 align="center">
+    🔹
+    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
+
+</h3>
+
+<p align="center">
 Give a ⭐ if you like this website!
+</p>
