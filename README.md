@@ -1,6 +1,6 @@
 <h2 align="center">
   Rahul Jha | Portfolio Website<br/>
-  <a href="https://rahuljha.vercel.app/" target="_blank">rahuljha.vercel.app</a>
+  <a href="https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme_img.png" />
@@ -19,7 +19,7 @@ You can fork this repo to modify and make changes according to your need. Please
 
 ## Built With
 
-My personal portfolio website <a href="https://rahuljha.vercel.app/" target="_blank">rahuljha.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio website <a https://www.rahuljha.tech/" target="_blank">rahuljha.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project is built using these technologies.
 
