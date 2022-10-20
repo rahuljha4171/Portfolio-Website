@@ -17,7 +17,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
-              <span className="Fluorescent-Blue"> ABOUT </span> ME
+              <span className="primary-header"> ABOUT </span> ME
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
@@ -28,25 +28,25 @@ function Home2() {
               who loves solving problems and building Websites.
               <br />
               <br />I am passionate about{" "}
-              <b className="primary-header">technologies</b> and love to learn
+              <span className="primary-header">technologies</span> and love to learn
               new things.
               <br />
               <br />I am more interested in building new &nbsp;
               <i>
-                <b className="primary-header">Web Technologies and Products.</b>
+                <span className="primary-header">Web Technologies and Products.</span>
               </i>
               <br />
               <br />I always apply my experience in developing products with{" "}
-              <b className="primary-header">Node.js</b> and Modern Javascript
-              Library and Frameworks like
+              <span className="primary-header">Node.js</span> and Modern Javascript
+              Library and Framework like
               <i>
-                <b className="primary-header"> React.js and Next.js</b>
+                <span className="primary-header"> React.js.</span>
               </i>
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
-              <b className="primary-header">projects </b>projects that I can add
-              here
+              <span className="primary-header">projects </span>projects that I can add
+              here.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
