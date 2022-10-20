@@ -22,30 +22,30 @@ function Home2() {
             <p className="home-about-body" data-aos="fade-up">
               <br />
               I'm a{" "}
-              <span className="primary-header">
+              <i className="primary-header">
                 Self-Taught Web Developer
-              </span>{" "}
+              </i>{" "}
               who loves solving problems and building Websites.
               <br />
               <br />I am passionate about{" "}
-              <span className="primary-header">technologies</span> and love to learn
+              <i className="primary-header">technologies</i> and love to learn
               new things.
               <br />
               <br />I am more interested in building new
               <i>
-                <span className="primary-header">Web Technologies and Products.</span>
+                <i className="primary-header">Web Technologies and Products.</i>
               </i>
               <br />
               <br />I always apply my experience in developing products with{" "}
-              <span className="primary-header">Node.js</span> and Modern Javascript
+              <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
-              <i>
-                <span className="primary-header"> React.js.</span>
-              </i>
+              
+                <i className="primary-header"> React.js.</i>
+              
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
-              <span className="primary-header">projects </span>projects that I can add
+              <i className="primary-header">projects </i>projects that I can add
               here.
             </p>
           </Col>
