@@ -31,7 +31,7 @@ function Home2() {
               <span className="primary-header">technologies</span> and love to learn
               new things.
               <br />
-              <br />I am more interested in building new &nbsp;
+              <br />I am more interested in building new
               <i>
                 <span className="primary-header">Web Technologies and Products.</span>
               </i>
