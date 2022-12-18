@@ -24,7 +24,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href=""
+            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -42,7 +42,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href=""
+            href="https://raw.githubusercontent.com/rahuljha4171/Portfolio-Website/c35fd111fd8c2beb9e2c243905aea24503bda9b3/src/Assets/Rahul%20Jha%20Resume.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
