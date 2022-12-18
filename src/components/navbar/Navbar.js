@@ -93,7 +93,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -101,10 +101,14 @@ function NavBar() {
               >
                 Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link href="https://blog.rahuljha.tech/" target="_blank" rel="noreferrer">
+              <Nav.Link
+                href="https://blog.rahuljha.tech/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Blogs
               </Nav.Link>
             </Nav.Item>
