@@ -21,8 +21,7 @@ function Home2() {
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a{" "}
-              <i className="primary-header">
+              I'm a <i className="primary-header">
                 Self-Taught Web Developer
               </i>{" "}
               who loves solving problems and building Websites.
@@ -39,9 +38,7 @@ function Home2() {
               <br />I always apply my experience in developing products with{" "}
               <i className="primary-header">Node.js</i> and Modern Javascript
               Library and Framework like
-              
-                <i className="primary-header"> React.js.</i>
-              
+              <i className="primary-header"> React.js.</i>
               <br />
               <br />
               Currently expanding my portfolio by building more{" "}
@@ -73,6 +70,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="github"
                 >
                   <AiFillGithub />
                 </a>
@@ -83,6 +81,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -93,6 +92,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="email"
                 >
                   <AiOutlineMail />
                 </a>
@@ -103,6 +103,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
+                  aria-label="linkedin"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -113,6 +114,7 @@ function Home2() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="instagram"
                 >
                   <AiFillInstagram />
                 </a>

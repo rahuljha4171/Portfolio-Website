@@ -23,7 +23,7 @@
   }
 }
 
-.footer h3 {
+.footer span {
   font-size: 1em;
   color: var(--clr-txt) !important;
   margin-top: 0.5em !important;

@@ -15,10 +15,10 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright"></Col>
         <Col md="4" className="footer-copywright">
-          <h3>
+          <span>
             Designed and Developed by{" "}
             <i className="primary-header">Rahul Jha</i>
-          </h3>
+          </span>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -29,6 +29,7 @@ function Footer() {
                 href="https://github.com/Rahuljha4171"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="github"
               >
                 <AiFillGithub />
               </a>
@@ -40,6 +41,7 @@ function Footer() {
                 href="https://twitter.com/Rahuljha4171"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="twitter"
               >
                 <AiOutlineTwitter />
               </a>
@@ -51,6 +53,7 @@ function Footer() {
                 href="mailto:rahuljha4171@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="email"
               >
                 <AiOutlineMail />
               </a>
@@ -62,6 +65,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/Rahuljha4171/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="linkedin"
               >
                 <FaLinkedinIn />
               </a>
@@ -73,6 +77,7 @@ function Footer() {
                 href="https://www.instagram.com/dead.programmer/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="instagram"
               >
                 <AiFillInstagram />
               </a>
