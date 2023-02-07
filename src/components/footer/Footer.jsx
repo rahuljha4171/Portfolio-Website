@@ -15,10 +15,10 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright"></Col>
         <Col md="4" className="footer-copywright">
-          <h3>
+          <span>
             Designed and Developed by{" "}
             <i className="primary-header">Rahul Jha</i>
-          </h3>
+          </span>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
