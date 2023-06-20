@@ -12,7 +12,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
   SiRedux,
-  SiMaterialui,
+  SiMui,
 } from "react-icons/si";
 
 function Techstack() {
@@ -46,7 +46,7 @@ function Techstack() {
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiMui />
       </Col>
     </Row>
   );
