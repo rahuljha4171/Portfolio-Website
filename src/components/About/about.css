@@ -3,6 +3,7 @@
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
+
 }
 
 .tech-icons {
@@ -23,6 +24,7 @@
 .quote-card-view {
   background: transparent !important;
   border: none !important;
+  color: var(--clr-txt) !important;
   box-shadow: var(--shadow);
 }
 .gitContainer {
