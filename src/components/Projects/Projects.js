@@ -35,7 +35,7 @@ function Projects() {
               title="Portfolio Website"
               description="My personal Portfolio Website build with React and Bootstrap. It is fully responsive website which supports both dark and light mode."
               ghLink="https://github.com/rahuljha4171/Portfolio-Website"
-              demoLink="https://rahuljha.tech/"
+              demoLink="https://rahuljha.info/"
             />
           </Col>
           <Col md={6} lg={4} className="project-card">
