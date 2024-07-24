@@ -1,51 +1,49 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeIcon from "../../Assets/homeicons.svg";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import homeIcon from '../../Assets/homeicons.svg'
+import ScrollToTop from '../ScrollToTop/ScrollToTop'
 
-import Home2 from "./Home2";
-import Type from "./Type";
-import "./home.css";
+import './home.css'
 
-function Home() {
+function getGreeting () {
+  return (
+    <div>
+      <h1 className='heading-name'>
+        <strong className='main-name'>SUNMED CAPITAL</strong>
+      </h1>
+
+      <h2 style={{ paddingBottom: 15 }} className='heading'>
+        Sunmed Capital is dedicated to promote innovation in medical devices by
+        working closely with physicians, engineers, and entrepreneurs.
+      </h2>
+    </div>
+  )
+}
+
+function Home () {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
-        <Container className="home-content">
+      <Container fluid className='home-section' id='home'>
+        <Container className='home-content'>
           <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>{" "}
-                I'M
-              </h1>
-
-              <h1 className="heading-name">
-                <strong className="main-name"> Rahul Jha</strong>
-              </h1>
-
-              <div style={{ padding: 30 }} className="type">
-                <Type />
-              </div>
+            <Col md={7} className='home-header'>
+              {getGreeting()}
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 0 }}>
               <img
                 src={homeIcon}
-                alt="home pic"
-                className="img-fluid"
+                alt='home pic'
+                className='img-fluid'
                 style={{ paddingTop: 50 }}
               />
             </Col>
           </Row>
         </Container>
       </Container>
-      <Home2 />
       <ScrollToTop />
     </section>
-  );
+  )
 }
 
-export default Home;
+export default Home

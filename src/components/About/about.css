@@ -3,7 +3,6 @@
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
-
 }
 
 .tech-icons {
@@ -36,20 +35,6 @@
   border-radius: 5px;
   display: flex;
   justify-content: center;
-}
-@media (max-width: 767px) {
-  .tech-icons {
-    margin: 10px !important;
-  }
-}
-
-.tech-icons:hover {
-  transform: scale(1.08) !important;
-  overflow: hidden !important;
-}
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
 }
 .primary-header {
   color: var(--clr-primary) !important;

@@ -2,7 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { AiOutlineArrowRight } from 'react-icons/ai'
 
-function AboutCard () {
+function TeamCard () {
   return (
     <Card className='quote-card-view'>
       <Card.Body>
@@ -25,4 +25,4 @@ function AboutCard () {
   )
 }
 
-export default AboutCard
+export default TeamCard

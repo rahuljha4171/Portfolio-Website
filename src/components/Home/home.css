@@ -39,10 +39,9 @@
 
 .home-section {
   position: relative;
-  z-index: 1;
   background-color: var(--clr-bg);
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-top: 5% !important;
+  padding-bottom: 3% !important;
 }
 
 .home-content {
@@ -52,7 +51,7 @@
 }
 
 .heading {
-  font-size: 2.4em !important;
+  font-size: 2em !important;
   padding-left: 50px !important;
 }
 
@@ -88,7 +87,7 @@
     padding-left: 0px !important;
     text-align: left !important;
   }
-  .type{
+  .type {
     padding-left: 0px;
   }
   .Typewriter__wrapper {
@@ -111,7 +110,7 @@
     padding-left: 20px !important;
     text-align: left !important;
   }
-  .type{
+  .type {
     text-align: left !important;
   }
   .Typewriter__wrapper {
