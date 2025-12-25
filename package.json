@@ -3,23 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@react-pdf/renderer": "^3.1.12",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
-    "axios": "^1.4.0",
-    "bootstrap": "^5.3.0",
+    "@react-pdf/renderer": "^4.3.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.8.0",
-    "react-dom": "^18.2.0",
-    "react-github-calendar": "^4.0.1",
-    "react-icons": "^4.10.1",
-    "react-parallax-tilt": "^1.7.151",
-    "react-router-dom": "^6.14.1",
+    "react": "^19.2.3",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.3",
+    "react-github-calendar": "^5.0.3",
+    "react-icons": "^5.5.0",
+    "react-parallax-tilt": "^1.7.315",
+    "react-router-dom": "^6.29.0",
     "react-scripts": "^5.0.1",
-    "typewriter-effect": "^2.20.1",
-    "web-vitals": "^3.3.2"
+    "typewriter-effect": "^2.22.0",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
