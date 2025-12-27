@@ -21,6 +21,13 @@
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
+
+@media (max-width: 991px) {
+  .tech-icons {
+    font-size: 3.5em !important;
+    margin: 12px !important;
+  }
+}
 .quote-card-view {
   background: transparent !important;
   border: none !important;
@@ -39,7 +46,21 @@
 }
 @media (max-width: 767px) {
   .tech-icons {
+    font-size: 3em !important;
     margin: 10px !important;
+    padding: 8px !important;
+  }
+  
+  .about-section {
+    padding-top: 100px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-icons {
+    font-size: 2.5em !important;
+    margin: 8px !important;
+    padding: 6px !important;
   }
 }
 

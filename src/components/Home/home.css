@@ -61,6 +61,16 @@
   padding-left: 45px !important;
 }
 
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 2.2em !important;
+  }
+  
+  .heading-name {
+    font-size: 4.5em !important;
+  }
+}
+
 .main-name {
   color: var(--clr-primary) !important;
 }
@@ -77,14 +87,18 @@
 }
 
 @media (max-width: 991px) {
+  .home-content {
+    padding: 6rem 1rem !important;
+  }
+  
   .heading {
-    font-size: 2.3em !important;
+    font-size: 2em !important;
     padding-left: 0px !important;
     text-align: left !important;
   }
 
   .heading-name {
-    font-size: 4em !important;
+    font-size: 3.5em !important;
     padding-left: 0px !important;
     text-align: left !important;
   }
@@ -100,29 +114,54 @@
   }
 }
 @media (max-width: 767px) {
+  .home-content {
+    padding: 5rem 1rem !important;
+  }
+  
   .heading {
-    font-size: 2.2em !important;
-    padding-left: 20px !important;
+    font-size: 1.8em !important;
+    padding-left: 0px !important;
     text-align: left !important;
   }
 
   .heading-name {
-    font-size: 3em !important;
-    padding-left: 20px !important;
+    font-size: 2.5em !important;
+    padding-left: 0px !important;
     text-align: left !important;
+    word-wrap: break-word;
   }
   .type{
     text-align: left !important;
+    padding-left: 0px !important;
   }
   .Typewriter__wrapper {
-    text-align: center !important;
-    font-size: 1.2em !important;
+    text-align: left !important;
+    font-size: 1.1em !important;
     font-weight: 400 !important;
-    position: absolute;
+    position: relative !important;
+    padding-left: 0px !important;
   }
 
   .Typewriter__cursor {
-    display: none !important;
+    font-size: 1.2em !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-content {
+    padding: 4rem 0.5rem !important;
+  }
+  
+  .heading {
+    font-size: 1.5em !important;
+  }
+
+  .heading-name {
+    font-size: 2em !important;
+  }
+  
+  .Typewriter__wrapper {
+    font-size: 1em !important;
   }
 }
 
@@ -156,6 +195,25 @@
   padding-top: 50px;
   font-size: 1.2em !important;
   text-align: left;
+}
+
+@media (max-width: 991px) {
+  .home-about-body {
+    font-size: 1.1em !important;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-about-body {
+    font-size: 1em !important;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .home-about-description {
+    padding-top: 50px !important;
+  }
 }
 
 .home-about-social {

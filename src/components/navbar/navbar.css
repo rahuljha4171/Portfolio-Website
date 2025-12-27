@@ -8,6 +8,20 @@
   position: fixed !important;
   transition: all 0.5s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
+  width: 100%;
+  z-index: 999;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 0.3rem 1.5rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.3rem 1rem !important;
+  }
 }
 
 .navbar-toggler {

@@ -39,6 +39,25 @@ main {
   margin: 0 auto;
 }
 
+@media (max-width: 991px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 7px;

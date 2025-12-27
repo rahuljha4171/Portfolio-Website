@@ -8,23 +8,26 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p style={{ textAlign: "justify"}}>
-            Hi Everyone, I am <span className="primary-header">Rahul Jha</span> from Darbhanga, Bihar, India. I am a computer science graduate and a passionate programmer.
+            Hello! I'm <span className="primary-header">Rahul Jha</span>, an accomplished Full-Stack Developer & Software Engineer with <span className="primary-header">6+ years</span> of experience delivering scalable web and mobile applications.
             <br />
             <br />
-            In addition to coding, here are some other things I enjoy doing!
+            <strong>Why Clients Choose to Work With Me:</strong>
           </p>
           <ul>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Writing Tech Blogs
+              <AiOutlineArrowRight /> Strong ability to translate ideas into functional products
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Reading Books
+              <AiOutlineArrowRight /> Focus on clean code, scalability, and performance
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Playing Games
+              <AiOutlineArrowRight /> Clear, proactive communication throughout the project
             </li>
             <li className="about-activity">
-              <AiOutlineArrowRight /> Traveling
+              <AiOutlineArrowRight /> On-time delivery and structured project execution
+            </li>
+            <li className="about-activity">
+              <AiOutlineArrowRight /> Long-term support and reliable maintenance
             </li>
           </ul>
         </blockquote>

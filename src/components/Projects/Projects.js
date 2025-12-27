@@ -15,9 +15,9 @@ function Projects() {
     <Container fluid className="project-section">
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="Fluorescent-Blue">Works </strong>
+          <strong className="Fluorescent-Blue">Services </strong> & Portfolio
         </h1>
-        <p>Here are a few projects I've worked on recently.</p>
+        <p style={{ fontSize: "1.2em", marginBottom: 30 }}>💡 Project Types I Specialize In: Web Apps & SaaS Platforms | Business Websites | CRM/ERP Dashboards | Mobile Applications | API-Driven Backend Systems</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} lg={4} className="project-card">
             <ProjectCard

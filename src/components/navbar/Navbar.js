@@ -87,19 +87,29 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/services"
+                onClick={() => updateExpanded(false)}
+              >
+                Services
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                Projects
+                Portfolio
               </Nav.Link>
             </Nav.Item>
+            
             <Nav.Item>
               <Nav.Link
-                href="https://blog.rahuljha.info/"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:your.email@example.com"
+                onClick={() => updateExpanded(false)}
               >
-                Blogs
+                Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>

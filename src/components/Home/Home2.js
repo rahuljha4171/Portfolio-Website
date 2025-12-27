@@ -21,29 +21,19 @@ function Home2() {
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I'm a <i className="primary-header">
-                Self-Taught Web Developer
-              </i>{" "}
-              who loves solving problems and building Websites.
-              <br />
-              <br />I am passionate about{" "}
-              <i className="primary-header">technologies</i> and love to learn
-              new things.
-              <br />
-              <br />I am more interested in building new
-              <i>
-                <i className="primary-header">Web Technologies and Products.</i>
-              </i>
-              <br />
-              <br />I always apply my experience in developing products with{" "}
-              <i className="primary-header">Node.js</i> and Modern Javascript
-              Library and Framework like
-              <i className="primary-header"> React.js.</i>
+              I build <i className="primary-header">high-performance digital solutions</i> that help businesses launch faster, scale efficiently, and deliver excellent user experiences.
               <br />
               <br />
-              Currently expanding my portfolio by building more{" "}
-              <i className="primary-header">projects </i>projects that I can add
-              here.
+              With <i className="primary-header">6+ years of professional experience</i> and a Bachelor's in Computer Science, I specialize in end-to-end development using modern technologies including <i className="primary-header">React, Node.js, PHP, JavaScript, MERN stack,</i> and <i className="primary-header">React Native</i>.
+              <br />
+              <br />
+              I focus on <i className="primary-header">clean code, scalability, and performance</i> with clear, proactive communication and on-time delivery.
+              <br />
+              <br />
+              Whether you need a <i className="primary-header">web application, mobile app, custom dashboard, or API integration</i> — I translate your ideas into functional products that drive results.
+              <br />
+              <br />
+              📩 <i className="primary-header">Ready to start your project?</i> Let's discuss how I can help bring your vision to life.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,9 +50,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1 data-aos="fade-right">
-              <span className="primary-header">CONNECT </span> WITH ME
+              <span className="primary-header">LET'S </span> WORK TOGETHER
             </h1>
-            <p data-aos="fade-left">Feel free to connect with me</p>
+            <p data-aos="fade-left">Connect with me to discuss your project or send a message to get started</p>
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a

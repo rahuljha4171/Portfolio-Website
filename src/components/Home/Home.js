@@ -26,6 +26,10 @@ function Home() {
                 <strong className="main-name"> Rahul Jha</strong>
               </h1>
 
+              <p style={{ fontSize: "1.3em", color: "var(--clr-primary)", fontWeight: 500, paddingLeft: 50, marginTop: 15 }}>
+                💼 Available for Hire | $13/hr
+              </p>
+
               <div style={{ padding: 30 }} className="type">
                 <Type />
               </div>
