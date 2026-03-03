@@ -1,10 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+/* Global Smooth Scrolling & Transitions */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .app {
   font-family: "Roboto", sans-serif;
   text-align: center;
   line-height: 1.5;
   color: var(--clr-txt);
   background-color: var(--clr-bg);
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .light {
@@ -31,6 +44,46 @@
   --clr-nav: #272f2b;
   --shadow: rgba(0, 0, 0, 0.558) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* System preference fallback for dark mode */
+@media (prefers-color-scheme: dark) {
+  .app:not(.dark):not(.light) {
+    color-scheme: dark;
+  }
+
+  .app:not(.dark):not(.light) {
+    --clr-bg: #202523;
+    --clr-bg-alt: #1d2120;
+
+    --clr-txt: #eeeeee;
+    --clr-primary: #83c9ff;
+    --clr-border: #eeeeee7c;
+    --clr-nav: #272f2b;
+    --shadow: rgba(0, 0, 0, 0.558) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+}
+
+/* System preference fallback for light mode */
+@media (prefers-color-scheme: light) {
+  .app:not(.dark):not(.light) {
+    color-scheme: light;
+  }
+
+  .app:not(.dark):not(.light) {
+    --clr-bg: #ffffff;
+    --clr-bg-alt: #f6f4f4;
+
+    --clr-txt: #000000ca;
+    --clr-primary: #03467a;
+
+    --clr-border: #919090;
+
+    --clr-nav: #fefefe;
+
+    --shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
+  }
 }
 
 main {
@@ -60,19 +113,42 @@ main {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #2978b595;
+  background: var(--clr-bg-alt);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1d80cd;
+  background: var(--clr-primary);
   border-radius: 12px;
+  transition: background 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #03467a;
-  border-radius: 12px;
+  background: var(--clr-primary);
+  opacity: 0.8;
+}
+
+/* Focus states for accessibility */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--clr-primary);
+  outline-offset: 2px;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

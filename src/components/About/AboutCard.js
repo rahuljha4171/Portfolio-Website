@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" data-aos="zoom-in">
           <p style={{ textAlign: "justify"}}>
-            Hello! I'm <span className="primary-header">Rahul Jha</span>, an accomplished Full-Stack Developer & Software Engineer with <span className="primary-header">6+ years</span> of experience delivering scalable web and mobile applications.
+            Hello! I'm Rahul Jha, an accomplished Full-Stack Developer & Software Engineer with 6+ years of experience delivering scalable web and mobile applications.
             <br />
             <br />
             <strong>Why Clients Choose to Work With Me:</strong>

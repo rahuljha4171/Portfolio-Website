@@ -3,7 +3,7 @@
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-color: var(--clr-bg) !important;
-
+  transition: background-color 0.4s ease;
 }
 
 .tech-icons {
@@ -16,16 +16,28 @@
   text-align: center !important;
   background: transparent !important;
   box-shadow: var(--shadow) !important;
-  border-radius: 5px !important;
+  border-radius: 10px !important;
   display: table !important;
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.tech-icons:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+@media (max-width: 1200px) {
+  .tech-icons {
+    font-size: 4em !important;
+    margin: 13px !important;
+  }
 }
 
 @media (max-width: 991px) {
   .tech-icons {
-    font-size: 3.5em !important;
-    margin: 12px !important;
+    font-size: 3.2em !important;
+    margin: 11px !important;
   }
 }
 .quote-card-view {

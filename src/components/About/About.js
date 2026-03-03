@@ -26,7 +26,7 @@ function About() {
               style={{ fontSize: "2.1em", paddingBottom: "20px" }}
               data-aos="fade-right"
             >
-              <span className="primary-header">Why</span> Hire Me
+              <span>Why</span> Hire Me
             </h1>
             <div data-aos="fade-up">
               <Aboutcard />
@@ -46,7 +46,7 @@ function About() {
           </Col>
         </Row>
         <h1 data-aos="fade-right">
-          <span className="primary-header">Skillset</span> I Work With
+          <span>Skillset</span> I Work With
         </h1>
 
         <div data-aos="fade-up">
@@ -54,7 +54,7 @@ function About() {
         </div>
 
         <h1 data-aos="fade-right">
-          <span className="primary-header">Tools</span> I use
+          <span>Tools</span> I use
         </h1>
         <div data-aos="fade-up">
           <Toolstack data-aos="fade-up" />
