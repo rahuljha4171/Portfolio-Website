@@ -17,23 +17,23 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
-              ABOUT ME
+              <span className="primary-header"> ABOUT </span> ME
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I build high-performance digital solutions that help businesses launch faster, scale efficiently, and deliver excellent user experiences.
+              I build <i className="primary-header">high-performance digital solutions</i> that help businesses launch faster, scale efficiently, and deliver excellent user experiences.
               <br />
               <br />
-              With 6+ years of professional experience and a Bachelor's in Computer Science, I specialize in end-to-end development using modern technologies including React, Node.js, PHP, JavaScript, MERN stack, and React Native.
+              With <i className="primary-header">6+ years of professional experience</i> and a Bachelor's in Computer Science, I specialize in end-to-end development using modern technologies including <i className="primary-header">React, Node.js, PHP, JavaScript, MERN stack,</i> and <i className="primary-header">React Native</i>.
               <br />
               <br />
-              I focus on clean code, scalability, and performance with clear, proactive communication and on-time delivery.
+              I focus on <i className="primary-header">clean code, scalability, and performance</i> with clear, proactive communication and on-time delivery.
               <br />
               <br />
-              Whether you need a web application, mobile app, custom dashboard, or API integration — I translate your ideas into functional products that drive results.
+              Whether you need a <i className="primary-header">web application, mobile app, custom dashboard, or API integration</i> — I translate your ideas into functional products that drive results.
               <br />
               <br />
-              📩 Ready to start your project? Let's discuss how I can help bring your vision to life.
+              📩 <i className="primary-header">Ready to start your project?</i> Let's discuss how I can help bring your vision to life.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -50,7 +50,7 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1 data-aos="fade-right">
-              LET'S WORK TOGETHER
+              <span className="primary-header">LET'S </span> WORK TOGETHER
             </h1>
             <p data-aos="fade-left">Connect with me to discuss your project or send a message to get started</p>
             <ul className="home-about-social-links" data-aos="fade-up">

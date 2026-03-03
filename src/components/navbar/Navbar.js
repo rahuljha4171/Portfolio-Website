@@ -13,7 +13,7 @@ import "./navbar.css";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [{ themename }] = useContext(ThemeContext);
+  const [{ themename, toggeltheme }] = useContext(ThemeContext);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -24,10 +24,13 @@ function NavBar() {
   }
   useEffect(() => {
     const body = document.body;
+    const toggle = document.querySelector(".toggle-inner");
     if (themename === "dark") {
       body.classList.add("dark-mode");
+      toggle.classList.add("toggle-active");
     } else {
       body.classList.remove("dark-mode");
+      toggle.classList.remove("toggle-active");
     }
   }, [themename]);
 
@@ -46,7 +49,7 @@ function NavBar() {
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
             alt="brand"
-            style={{ width: "48", height: "40" }}
+            style={{width: "48", height: "40"}}
           />
         </Navbar.Brand>
 
@@ -100,17 +103,24 @@ function NavBar() {
                 Portfolio
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
-                as={Link}
-                to="/contact"
+                href="mailto:your.email@example.com"
                 onClick={() => updateExpanded(false)}
               >
                 Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
+
+          <Nav.Item>
+            <div className="theme-switch">
+              <div id="toggle" onClick={toggeltheme}>
+                <div className="toggle-inner" />
+              </div>
+            </div>
+          </Nav.Item>
         </Navbar.Collapse>
       </Container>
     </Navbar>

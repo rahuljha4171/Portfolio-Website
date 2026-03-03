@@ -1,40 +1,26 @@
 .sticky {
   transition: all 0.5s ease-out 0s !important;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12) !important;
-  backdrop-filter: blur(20px) !important;
-  -webkit-backdrop-filter: blur(20px) !important;
+  box-shadow: 0px 2px 2px 0px var(--clr-border) !important;
+  backdrop-filter: blur(250px) !important;
 }
 
 .navbar {
   position: fixed !important;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  padding: 0.5rem 2rem !important;
+  transition: all 0.5s ease-out 0s !important;
+  padding: 0.3rem 2rem !important;
   width: 100%;
   z-index: 999;
-  background-color: var(--clr-nav);
-}
-
-@media (max-width: 1200px) {
-  .navbar {
-    padding: 0.5rem 1.5rem !important;
-  }
 }
 
 @media (max-width: 991px) {
   .navbar {
-    padding: 0.4rem 1.2rem !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 0.4rem 1rem !important;
+    padding: 0.3rem 1.5rem !important;
   }
 }
 
 @media (max-width: 480px) {
   .navbar {
-    padding: 0.3rem 0.8rem !important;
+    padding: 0.3rem 1rem !important;
   }
 }
 
@@ -112,45 +98,29 @@
 
 .navbar-nav .nav-link {
   color: var(--clr-txt) !important;
-  padding-right: 0.7rem !important;
-  padding-left: 0.7rem !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-  font-weight: 500;
-  position: relative;
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
 }
-
-.navbar-nav .nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: var(--clr-primary);
-  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
-
 .nav-link {
-  padding: 0.9rem 1.1rem !important;
-  transition: all 0.3s ease;
+  padding: 0.8rem 1rem !important;
+}
+
+.theme-switch {
+  padding-left: 20px;
 }
 
 @media (max-width: 768px) {
   .nav-link {
-    padding: 0.8rem 1rem !important;
+    padding: 0.7rem 1rem !important;
   }
-  
-  .navbar-nav .nav-link::after {
-    display: none;
-  }
-  
   .logo {
     height: 1.9em !important;
     width: 2.5em !important;
+  }
+  .theme-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
