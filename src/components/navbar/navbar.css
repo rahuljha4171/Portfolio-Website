@@ -105,10 +105,6 @@
   padding: 0.8rem 1rem !important;
 }
 
-.theme-switch {
-  padding-left: 20px;
-}
-
 @media (max-width: 768px) {
   .nav-link {
     padding: 0.7rem 1rem !important;
@@ -116,11 +112,6 @@
   .logo {
     height: 1.9em !important;
     width: 2.5em !important;
-  }
-  .theme-switch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
@@ -152,33 +143,4 @@
 
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
-}
-
-/* theme Switch */
-#toggle {
-  width: 50px;
-  display: flex;
-  padding: 5px;
-  background-color: #202523;
-  display: block;
-  border-radius: 1000px;
-  cursor: pointer;
-  box-shadow: 0px 5px 20px -10px var(--shadow);
-  transition: background-color 0.3s ease-in;
-}
-#toggle .toggle-inner {
-  width: 20px;
-  height: 15px;
-  background-color: var(--clr-bg);
-  border-radius: 1000px;
-  transition: margin-left 0.3s ease-in, background-color 0.3s ease-in;
-}
-#toggle .toggle-inner.toggle-active {
-  margin-left: 20px;
-}
-.dark-mode #toggle {
-  background-color: var(--clr-txt);
-}
-.dark-mode #toggle .toggle-inner {
-  background-color: #202523;
 }

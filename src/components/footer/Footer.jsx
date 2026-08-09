@@ -50,7 +50,7 @@ function Footer() {
               <a
                 style={{ color: `var(--clr-primary)` }}
                 className="email"
-                href="mailto:rahul.workmail01@gmail.com"
+                href="mailto:hello@rahuljha.info"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="email"

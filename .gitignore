@@ -1,28 +1,53 @@
+# Dependencies
+/node_modules/
+/.pnp/
+.pnp.*
 
-# dependencies
-node_modules
-/.pnp
-.pnp.js
+# Production builds
+/dist/
+/build/
 
-# testing
-/coverage
+# Tests and coverage
+/coverage/
+*.lcov
 
-# production
-/build
+# Vite and tooling caches
+/.vite/
+/.vitest/
+/.cache/
+.eslintcache
+*.tsbuildinfo
 
-# misc
-.DS_Store
+# Local environment variables
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
 
+# Vercel local state
+/.vercel/
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-.eslintcache
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/*
+!/.vscode/extensions.json
+*.swp
+*.swo
 
-Server/node_modules
-Server/config.js
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+/.tmp/
+
+# Legacy local server files
+/Server/node_modules/
+/Server/config.js

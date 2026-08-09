@@ -13,7 +13,7 @@ import "./navbar.css";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  const [{ themename, toggeltheme }] = useContext(ThemeContext);
+  const [{ themename }] = useContext(ThemeContext);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -23,18 +23,9 @@ function NavBar() {
     }
   }
   useEffect(() => {
-    const body = document.body;
-    const toggle = document.querySelector(".toggle-inner");
-    if (themename === "dark") {
-      body.classList.add("dark-mode");
-      toggle.classList.add("toggle-active");
-    } else {
-      body.classList.remove("dark-mode");
-      toggle.classList.remove("toggle-active");
-    }
-  }, [themename]);
-
-  window.addEventListener("scroll", scrollHandler);
+    window.addEventListener("scroll", scrollHandler, { passive: true });
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, []);
 
   return (
     <Navbar
@@ -48,13 +39,14 @@ function NavBar() {
           <img
             src={themename === "light" ? logoDark : logoLight}
             className="img-fluid logo"
-            alt="brand"
-            style={{width: "48", height: "40"}}
+            alt="Rahul Jha home"
+            style={{ width: 48, height: 40 }}
           />
         </Navbar.Brand>
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
+          aria-label="Toggle navigation"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
           }}
@@ -90,7 +82,7 @@ function NavBar() {
                 to="/services"
                 onClick={() => updateExpanded(false)}
               >
-                Services
+                Expertise
               </Nav.Link>
             </Nav.Item>
 
@@ -106,21 +98,13 @@ function NavBar() {
             
             <Nav.Item>
               <Nav.Link
-                href="mailto:your.email@example.com"
+                href="mailto:hello@rahuljha.info"
                 onClick={() => updateExpanded(false)}
               >
                 Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
-
-          <Nav.Item>
-            <div className="theme-switch">
-              <div id="toggle" onClick={toggeltheme}>
-                <div className="toggle-inner" />
-              </div>
-            </div>
-          </Nav.Item>
         </Navbar.Collapse>
       </Container>
     </Navbar>

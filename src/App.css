@@ -5,6 +5,7 @@
   line-height: 1.5;
   color: var(--clr-txt);
   background-color: var(--clr-bg);
+  transition: color 0.25s ease, background-color 0.25s ease;
 }
 
 .light {

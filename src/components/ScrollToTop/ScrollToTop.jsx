@@ -7,13 +7,16 @@ const ScrollToTop = () => {
   const [backToTopButtom, setBackTopButton] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       if (window.scrollY > 100) {
         setBackTopButton(true);
       } else {
         setBackTopButton(false);
       }
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const scrollUp = () => {
@@ -26,8 +29,14 @@ const ScrollToTop = () => {
   return (
     <div className="App">
       {backToTopButtom && (
-        <button className="scroll-up" onClick={scrollUp}>
-          <AiOutlineArrowUp />
+        <button
+          className="scroll-up"
+          type="button"
+          onClick={scrollUp}
+          aria-label="Back to top"
+          title="Back to top"
+        >
+          <AiOutlineArrowUp aria-hidden="true" />
         </button>
       )}
     </div>

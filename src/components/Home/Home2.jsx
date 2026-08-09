@@ -21,19 +21,19 @@ function Home2() {
             </h1>
             <p className="home-about-body" data-aos="fade-up">
               <br />
-              I build <i className="primary-header">high-performance digital solutions</i> that help businesses launch faster, scale efficiently, and deliver excellent user experiences.
+              I design and build <i className="primary-header">reliable web and mobile products</i> with an emphasis on maintainable architecture, performance, and thoughtful user experiences.
               <br />
               <br />
               With <i className="primary-header">6+ years of professional experience</i> and a Bachelor's in Computer Science, I specialize in end-to-end development using modern technologies including <i className="primary-header">React, Node.js, PHP, JavaScript, MERN stack,</i> and <i className="primary-header">React Native</i>.
               <br />
               <br />
-              I focus on <i className="primary-header">clean code, scalability, and performance</i> with clear, proactive communication and on-time delivery.
+              My work spans <i className="primary-header">frontend development, backend systems, database design, and cloud deployment</i>, allowing me to contribute across the full product lifecycle.
               <br />
               <br />
-              Whether you need a <i className="primary-header">web application, mobile app, custom dashboard, or API integration</i> — I translate your ideas into functional products that drive results.
+              I enjoy translating complex requirements into <i className="primary-header">clear, practical software</i> and collaborating with teams to take products from initial design through production.
               <br />
               <br />
-              📩 <i className="primary-header">Ready to start your project?</i> Let's discuss how I can help bring your vision to life.
+              Outside of delivery work, I continue refining my engineering practice through hands-on projects and modern development tools.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -42,7 +42,7 @@ function Home2() {
                 data-aos="fade-left"
                 src={myImg}
                 className="img-fluid"
-                alt="avatar"
+                alt="Illustrated portrait of Rahul Jha"
               />
             </Tilt>
           </Col>
@@ -50,9 +50,9 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1 data-aos="fade-right">
-              <span className="primary-header">LET'S </span> WORK TOGETHER
+              <span className="primary-header">CONNECT </span> WITH ME
             </h1>
-            <p data-aos="fade-left">Connect with me to discuss your project or send a message to get started</p>
+            <p data-aos="fade-left">Find me online or reach out directly by email.</p>
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
@@ -78,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:hello@rahuljha.info"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

@@ -60,10 +60,10 @@ function Services() {
     <Container fluid className="services-section">
       <Container>
         <h1 className="services-heading" data-aos="fade-up">
-          <span className="primary-header">What</span> I Offer
+          <span className="primary-header">Engineering</span> Capabilities
         </h1>
         <p className="services-subheading" data-aos="fade-up">
-          Professional development services to bring your digital vision to life
+          Technologies and problem areas I work with across the product lifecycle
         </p>
         
         <Row style={{ justifyContent: "center", paddingTop: "30px" }}>
@@ -82,38 +82,57 @@ function Services() {
           ))}
         </Row>
 
-        <Row style={{ justifyContent: "center", paddingTop: "50px" }}>
-          <Col md={10}>
-            <Card className="rate-card" data-aos="fade-up">
-              <Card.Body>
-                <h2 className="rate-heading">💼 Ready to Start Your Project?</h2>
-                <p className="rate-text">
-                  <strong>Hourly Rate:</strong> $13.00/hr
+        <section className="expertise-details" aria-labelledby="expertise-details-title">
+          <h2 id="expertise-details-title">
+            Full-Stack Engineering for <span className="primary-header">Real Products</span>
+          </h2>
+          <p className="expertise-intro">
+            I work across the application stack to turn product requirements into maintainable software.
+            My experience includes responsive React interfaces, Node.js and PHP backends, REST API design,
+            relational and document databases, React Native applications, and production deployment.
+          </p>
+
+          <Row className="expertise-content-row">
+            <Col md={6} lg={4}>
+              <article className="expertise-content-card">
+                <h3>Scalable Web Applications</h3>
+                <p>
+                  I build responsive web applications, dashboards, SaaS interfaces, and e-commerce experiences
+                  with reusable components, accessible interactions, predictable state management, and performance
+                  that remains dependable as features grow.
                 </p>
-                <p className="rate-description">
-                  I offer flexible engagement options including hourly, fixed-price projects, and retainer agreements. 
-                  Let's discuss your requirements and find the best arrangement for your project.
+              </article>
+            </Col>
+            <Col md={6} lg={4}>
+              <article className="expertise-content-card">
+                <h3>Backend APIs and Data</h3>
+                <p>
+                  Backend work includes RESTful services, authentication, business logic, third-party integrations,
+                  database modeling, and query optimization using Node.js, Express, PHP, MongoDB, and MySQL.
                 </p>
-                <div className="cta-buttons">
-                  <a 
-                    href="mailto:your.email@example.com" 
-                    className="btn btn-primary cta-btn"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    📩 Send a Message
-                  </a>
-                  <a 
-                    href="#contact" 
-                    className="btn btn-outline-primary cta-btn"
-                  >
-                    💬 Let's Talk
-                  </a>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+              </article>
+            </Col>
+            <Col md={6} lg={4}>
+              <article className="expertise-content-card">
+                <h3>Mobile and Cloud Delivery</h3>
+                <p>
+                  I develop cross-platform mobile experiences with React Native and support delivery through Git,
+                  Docker, AWS, Vercel, Linux environments, automated builds, and practical production monitoring.
+                </p>
+              </article>
+            </Col>
+          </Row>
+        </section>
+
+        <section className="engineering-process" aria-labelledby="engineering-process-title">
+          <h2 id="engineering-process-title">How I Approach Software Development</h2>
+          <p>
+            Strong software starts with clear requirements and continues through architecture, implementation,
+            testing, deployment, and maintenance. I break complex work into measurable stages, document important
+            decisions, validate behavior across devices, and keep code structured for the engineers who maintain it next.
+          </p>
+        </section>
+
       </Container>
     </Container>
   );
